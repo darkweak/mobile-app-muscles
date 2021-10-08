@@ -14,18 +14,18 @@ class LightThemeColors implements BaseStyles {
   Color get primaryAccent => const Color(0xFF87c694);
 
   // app bar
-  Color get appBarBackground => Colors.blue;
+  Color get appBarBackground => Colors.indigo;
   Color get appBarPrimaryContent => Colors.white;
 
   // buttons
-  Color get buttonBackground => Colors.blueAccent;
+  Color get buttonBackground => Colors.indigoAccent;
   Color get buttonPrimaryContent => Colors.white;
 
   // bottom tab bar
   Color get bottomTabBarBackground => Colors.white;
 
   // bottom tab bar - icons
-  Color get bottomTabBarIconSelected => Colors.blue;
+  Color get bottomTabBarIconSelected => Colors.indigo;
   Color get bottomTabBarIconUnselected => Colors.black54;
 
   // bottom tab bar - label

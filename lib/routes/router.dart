@@ -1,4 +1,4 @@
-import 'package:flutter_app/resources/pages/home_page.dart';
+import 'package:flutter_app/resources/pages/welcome_page.dart';
 import 'package:nylo_framework/nylo_framework.dart';
 
 /*
@@ -14,7 +14,7 @@ import 'package:nylo_framework/nylo_framework.dart';
 
 buildRouter() => nyRoutes((router) {
 
-      router.route("/", (context) => MyHomePage(title: "Hello World"));
+      router.route("/", (context) => WelcomePage(title: "Title"));
 
       // Add your routes here
 

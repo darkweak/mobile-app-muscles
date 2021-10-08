@@ -237,7 +237,7 @@ packages:
       name: nylo_framework
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.3"
+    version: "2.0.4"
   nylo_support:
     dependency: transitive
     description:

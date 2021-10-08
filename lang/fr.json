@@ -4,23 +4,23 @@
       "name": ""
     },
     "ELEMENT_FEU": {
-      "name": "Fire"
+      "name": "Feu"
     },
     "ELEMENT_TERRE": {
-      "name": "Earth"
+      "name": "Terre"
     },
     "ELEMENT_METAL": {
       "name": "Metal"
     },
     "ELEMENT_EAU": {
-      "name": "Water"
+      "name": "Eau"
     },
     "ELEMENT_BOIS": {
-      "name": "Wood"
+      "name": "Bois"
     }
   },
   "title": {
     "home": "MERIDIANS_APP",
-    "meridians": "Meridians"
+    "meridians": "Meridiens"
   }
 }
