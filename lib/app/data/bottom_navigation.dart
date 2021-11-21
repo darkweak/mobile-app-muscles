@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class TabIconData {
   TabIconData({
@@ -19,28 +20,28 @@ class TabIconData {
   static List<TabIconData> tabIconsList = <TabIconData>[
     TabIconData(
       name: 'Home category',
-      imagePath: Icons.star_border,
+      imagePath: FontAwesomeIcons.book,
       index: 0,
       isSelected: true,
       animationController: null,
     ),
     TabIconData(
       name: 'Meridians category',
-      imagePath: Icons.stacked_bar_chart,
+      imagePath: FontAwesomeIcons.userCircle,
       index: 1,
       isSelected: false,
       animationController: null,
     ),
     TabIconData(
       name: 'Muscles category',
-      imagePath: Icons.stacked_bar_chart,
+      imagePath: FontAwesomeIcons.commentDots,
       index: 2,
       isSelected: false,
       animationController: null,
     ),
     TabIconData(
       name: 'Elements category',
-      imagePath: Icons.stacked_bar_chart,
+      imagePath: FontAwesomeIcons.cog,
       index: 3,
       isSelected: false,
       animationController: null,

@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/app/data/bottom_navigation.dart';
 import 'package:flutter_app/app/data/list.dart';
+import 'package:flutter_app/app/models/element.dart' as elt;
 import 'package:flutter_app/app/models/meridian.dart';
-import 'package:flutter_app/config/app_theme.dart';
+import 'package:flutter_app/app/models/muscle.dart';
 import 'package:flutter_app/main.dart';
-import 'package:flutter_app/resources/widgets/bottom_navigation_widget.dart';
-import 'package:flutter_app/resources/widgets/list_widget.dart';
-import 'package:flutter_app/resources/widgets/theme_switcher_widget.dart';
-import 'package:flutter_app/resources/widgets/title_widget.dart';
+import 'package:flutter_app/resources/widgets/layout.dart';
+import 'package:flutter_app/resources/widgets/list_item/meridian.dart';
+import 'package:flutter_app/resources/widgets/list_item/muscle.dart';
 import 'package:nylo_support/widgets/ny_state.dart';
 import 'package:nylo_support/widgets/ny_stateful_widget.dart';
 
@@ -15,9 +14,6 @@ import '../../app/controllers/welcome_controller.dart';
 
 class WelcomePage extends NyStatefulWidget {
   final WelcomeController controller = WelcomeController();
-  final String title;
-
-  WelcomePage({Key? key, required this.title}) : super(key: key);
 
   @override
   _WelcomePageState createState() => _WelcomePageState();
@@ -26,13 +22,19 @@ class WelcomePage extends NyStatefulWidget {
 class _WelcomePageState extends NyState<WelcomePage>
     with TickerProviderStateMixin {
   AnimationController? animationController;
+  List<elt.Element> elementsList = [];
   List<Meridian> meridiansList = [];
+  List<Muscle> musclesList = [];
 
   @override
   widgetDidLoad() async {
-    var list = await ListData<Meridian>().getList(Meridian());
+    var elements = await ListData<elt.Element>().getList(elt.Element());
+    var meridians = await ListData<Meridian>().getList(Meridian());
+    var muscles = await ListData<Muscle>().getList(Muscle());
     setState(() {
-      meridiansList = list;
+      elementsList = elements;
+      meridiansList = meridians;
+      musclesList = muscles;
       animationController = AnimationController(
           duration: const Duration(milliseconds: 2000), vsync: this);
     });
@@ -54,42 +56,30 @@ class _WelcomePageState extends NyState<WelcomePage>
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: NyColors.of(context).appBarBackground,
-      child: Scaffold(
-        appBar: AppBar(
-          title: Text(translate(context, "title.home")),
-          actions: [
-            ThemeSwitcherWidget(),
-          ],
-        ),
-        body: meridiansList.length > 0
-            ? Stack(
-          children: <Widget>[
-            ListView(
-              children: [
-                Container(
-                  padding: EdgeInsets.only(bottom: 24.0, top: 24.0),
-                  child: TitleWidget(
-                    animationController: animationController,
-                    title: translate(context, "title.meridians"),
+    return LayoutWidget(
+        title: "title.home",
+        body: elementsList.length > 0
+            ? ListView(
+                children: <Widget>[
+                  ...buildList(context, animationController, elementsList,
+                      "title.elements", () => {},
+                      inline: true),
+                  ...buildList(
+                      context,
+                      animationController,
+                      meridiansList,
+                      "title.meridians",
+                      (item) => MeridianItemListWidget(item: item as Meridian)),
+                  ...buildList(
+                    context,
+                    animationController,
+                    musclesList,
+                    "title.muscles",
+                    (item) => MuscleItemListWidget(item: item as Muscle),
+                    small: true,
                   ),
-                ),
-                ListWidget<Meridian>(animationController: animationController, items: meridiansList),
-              ],
-            ),
-            Column(
-              children: <Widget>[
-                const Expanded(
-                  child: SizedBox(),
-                ),
-                BottomNavigationWidget(items: TabIconData.tabIconsList),
-              ],
-            ),
-          ],
-        )
-            : Container(),
-      ),
-    );
+                ],
+              )
+            : Container());
   }
 }

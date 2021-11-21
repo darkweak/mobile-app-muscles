@@ -1,3 +1,9 @@
+import 'package:flutter_app/resources/pages/atlas_page.dart';
+import 'package:flutter_app/resources/pages/emotions_page.dart';
+import 'package:flutter_app/resources/pages/muscle_id_page.dart';
+import 'package:flutter_app/resources/pages/muscles_page.dart';
+import 'package:flutter_app/resources/pages/parameters_page.dart';
+import 'package:flutter_app/resources/pages/settings_page.dart';
 import 'package:flutter_app/resources/pages/welcome_page.dart';
 import 'package:nylo_framework/nylo_framework.dart';
 
@@ -13,11 +19,13 @@ import 'package:nylo_framework/nylo_framework.dart';
 */
 
 buildRouter() => nyRoutes((router) {
+      // base route stacks
+      router.route("/", (context) => WelcomePage());
+      router.route("/atlas", (context) => AtlasPage());
+      router.route("/muscles", (context) => MusclesPage());
+      router.route("/muscle", (context) => MuscleIdPage());
+      router.route("/emotions", (context) => EmotionsPage());
+      router.route("/parameters", (context) => ParametersPage());
 
-      router.route("/", (context) => WelcomePage(title: "Title"));
-
-      // Add your routes here
-
-      // router.route("/new-page", (context) => NewPage(), transition: PageTransitionType.fade);
-
+      router.route("/testing", (context) => SettingsPage());
     });

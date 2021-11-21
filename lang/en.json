@@ -1,5 +1,181 @@
 {
-  "meridians": {
+  "corrections": {
+    "NL_ANT_01": {
+      "description": "Edge of the sternum at the 1st rib"
+    },
+    "NL_ANT_02": {
+      "description": "Between 2 and 3rd sibs,  each side of the sternum"
+    },
+    "NL_ANT_03": {
+      "description": "Between the 3rd and 4th ribs on each side of the breastbone"
+    },
+    "NL_ANT_03_04": {
+      "description": "Between the 3rd and 4th, and 4th and 5th ribs on each side of the breastbone"
+    },
+    "NL_ANT_05_15": {
+      "description": "On the shoulder, on the inside teh top forward part of the iliac crest"
+    },
+    "NL_ANT_Z5_16": {
+      "description": "Upper edge of pubic bone + Points each side of the navel"
+    },
+    "NL_ANT_06": {
+      "description": "3 cun each side of the sternum, between 2nd and 3rd ribs"
+    },
+    "NL_ANT_07": {
+      "description": "Between 2 and 3rd sibs, 3 cun each side of the sternum"
+    },
+    "NL_ANT_14": {
+      "description": "On the left side, between teh 7th and 8th ribs, near the rib margin "
+    },
+    "NL_ANT_18": {
+      "description": "2 cun above the navel, 1 cun each  side of the body"
+    },
+    "NL_ANT_8": {
+      "description": "Behind the nipple, betwenn the 4th and 5th ribs"
+    },
+    "NL_ANT_Z1_02": {
+      "description": "Between 2nd and 3rd ribs near the Sternum ; On the front of the upper arm"
+    },
+    "NL_ANT_Z2": {
+      "description": "On the left side, between teh 5th and 6th ribs. "
+    },
+    "NL_ANT_Z2d": {
+      "description": "On the right side, between teh 5th and 6th ribs. "
+    },
+    "NL_ANT_Z3": {
+      "description": "Along the rib margins"
+    },
+    "NL_ANT_Z4": {
+      "description": "Entire Sternum ( Breastbone )"
+    },
+    "NL_ANT_Z5": {
+      "description": "Upper edge of the pubic bone"
+    },
+    "NL_ANT_Z6": {
+      "description": "Inside the thights, upper half"
+    },
+    "NL_ANT_Z6_15": {
+      "description": "Inside of upper thight, and point at the upper part of the hip"
+    },
+    "NL_ANT_Z7": {
+      "description": "From teh top of the thigh bone, down just above the knee on the outside, front of the legs"
+    },
+    "NL_ANT_Z8": {
+      "description": "Inside the thights, lower half"
+    },
+    "NL_ANT_Z9": {
+      "description": "At the shoulder creasese, the Raglan Sleeves"
+    },
+    "NL_POST_C1": {
+      "description": "Base of the Skull"
+    },
+    "NL_POST_C2": {
+      "description": "At C2, each side of the spine"
+    },
+    "NL_POST_C7_D1_Z1": {
+      "description": "Between C7 and T1 each side of the spine + center of the Teres muscles in the border of the scapula"
+    },
+    "NL_POST_D10_D11_D12": {
+      "description": "Between T10-T12, 1 cun each side of the spide at the last ribs"
+    },
+    "NL_POST_D12_L1": {
+      "description": "Between T12 and L1, each side of the spine"
+    },
+    "NL_POST_D2_D3": {
+      "description": "Between T2 and T3, each side of the spine"
+    },
+    "NL_POST_D3_D5": {
+      "description": "between T3 and T4, T4 and T5,  1 cun each side of the spine"
+    },
+    "NL_POST_D4_D5": {
+      "description": "between T3 and T4 1 cun each side of the spine"
+    },
+    "NL_POST_D5_D6": {
+      "description": "Between T5 and T6, each side of the spine"
+    },
+    "NL_POST_D5_D6d": {
+      "description": "Between T5 and T6 to the right side of the spine"
+    },
+    "NL_POST_D7_D8": {
+      "description": "Between T7 and T8, each side of the spine"
+    },
+    "NL_POST_D8_D11": {
+      "description": "Between T8 and T12, each side of the spine"
+    },
+    "NL_POST_L2": {
+      "description": "At L2, each side of the spine"
+    },
+    "NL_POST_L5": {
+      "description": "At L5, each side of the spine"
+    },
+    "NL_POST_Z2": {
+      "description": "Just below the points of the shoulder blade, between 8th and 9th ribs"
+    },
+    "NL_POST_Z3": {
+      "description": "the fleshy triangles between L2 L4 and the highest part of the hipbones"
+    },
+    "NL_POST_Z4": {
+      "description": "The prominent knobs on the hip bones at the level of L5"
+    },
+    "NV1_DOS": {
+      "description": "Occipital protuberance"
+    },
+    "NV_10_13": {
+      "description": "Parietal Eminence + Lambdoidal suture"
+    },
+    "NV10_PROFIL": {
+      "description": "Parietal Eminence"
+    },
+    "NV11_FACE": {
+      "description": "Frontal Eminence"
+    },
+    "NV12_FACE": {
+      "description": "At the start of the hair, two inches from the median line"
+    },
+    "NV13_DOS": {
+      "description": "Lambdoidal suture"
+    },
+    "NV14_DOS": {
+      "description": "Back of the knee"
+    },
+    "Dans_la_fourchette_sternale": {
+      "description": "Sternal notch"
+    },
+    "NV14_Face+NV16_DOS_Genou": {
+      "description": "Back of the knee + Sternoclavicular joint"
+    },
+    "NV2_DOS": {
+      "description": "Posterior fontanel"
+    },
+    "NV3_DOS": {
+      "description": "1.2 cun above the fontanel"
+    },
+    "NV4_11_PROFIL": {
+      "description": "Antérior Fontanel"
+    },
+    "NV4_PROFIL": {
+      "description": "Antérior Fontanel"
+    },
+    "NV5_FACE": {
+      "description": "Glabella"
+    },
+    "NV6_PROFIL": {
+      "description": "Ramus of Jaw"
+    },
+    "NV7_PROFIL": {
+      "description": "1 cun after the external eye angle"
+    },
+    "NV8_PROFIL": {
+      "description": "level with the ear, at the end of the mandible"
+    },
+    "NV8_PROFIL+NV15_16Face": {
+      "description": "level with the ear, at the end of the mandible + Sternal notch"
+    },
+    "NV9_PROFIL": {
+      "description": "2 cun above the ear"
+    }
+  },
+  "elements": {
     "ELEMENT_AUCUN": {
       "name": ""
     },
@@ -19,8 +195,264 @@
       "name": "Wood"
     }
   },
+  "meridians": {
+    "MERIDIEN_VC": {
+      "name": "Central Vessel / Conception Vessel",
+      "letter": "CV",
+      "emotion": "",
+      "color": "",
+      "sound": "",
+      "extremity": "",
+      "alarm": {
+        "description": "Sur la ligne médiane, dans le creux au milieu du sillon mentonier",
+        "image": ""
+      },
+      "tonify": "",
+      "sedate": ""
+    },
+    "MERIDIEN_E": {
+      "name": "Stomach",
+      "letter": "S",
+      "emotion": "Empathy, Sympathy",
+      "color": "Yellow",
+      "sound": "Singing",
+      "extremity": "Foot",
+      "alarm": {
+        "description": "Sur la ligne médiane, 2 pouces au dessous du 14 VC, 4 pouces au dessus de l'ombilic",
+        "image": "MERIDIEN_E_alarm-en.jpg"
+      },
+      "tonify": "MERIDIEN_E_TONIFY-en.png",
+      "sedate": "MERIDIEN_E_SEDATE-en.png"
+    },
+    "MERIDIEN_RP": {
+      "name": "Spleen",
+      "letter": "SP",
+      "emotion": "Empathy, Sympathy",
+      "color": "Yellow",
+      "sound": "Singing",
+      "extremity": "Foot",
+      "alarm": {
+        "description": "Bilatéralement, à l'extrémité libre de la 11eme cote, 2 pouces au dessus de la ligne horizontale passant pas l'ombilic",
+        "image": "MERIDIEN_RP_alarm-en.jpg"
+      },
+      "tonify": "MERIDIEN_RP_TONIFY-en.png",
+      "sedate": "MERIDIEN_RP_SEDATE-en.png"
+    },
+    "MERIDIEN_C": {
+      "name": "Heart",
+      "letter": "H",
+      "emotion": "Joy, Love, Hate",
+      "color": "Red",
+      "sound": "Laughing",
+      "extremity": "Hand",
+      "alarm": {
+        "description": "sur la ligne médiane, sous la pointe de l'apophyse xiphoïde, 6 pouces au dessus de l'ombilic",
+        "image": "MERIDIEN_C_alarm-en.jpg"
+      },
+      "tonify": "MERIDIEN_C_TONIFY-en.png",
+      "sedate": "MERIDIEN_C_SEDATE-en.png"
+    },
+    "MERIDIEN_IG": {
+      "name": "Small Intestine",
+      "letter": "SI",
+      "emotion": "Joy, Love, Hate",
+      "color": "Red",
+      "sound": "Laughing",
+      "extremity": "Hand",
+      "alarm": {
+        "description": "Sur la ligne médiane, 3 pouces au dessous de l'ombilic",
+        "image": "MERIDIEN_IG_alarm-en.jpg"
+      },
+      "tonify": "MERIDIEN_IG_TONIFY-en.png",
+      "sedate": "MERIDIEN_IG_SEDATE-en.png"
+    },
+    "MERIDIEN_V": {
+      "name": "Bladder",
+      "letter": "B",
+      "emotion": "Fear, Anxiety",
+      "color": "Blue",
+      "sound": "Groaning",
+      "extremity": "Foot",
+      "alarm": {
+        "description": "Sur la ligne médiane, 4 pouces au dessous de l'ombilic",
+        "image": "MERIDIEN_V_alarm-en.jpg"
+      },
+      "tonify": "MERIDIEN_V_TONIFY-en.png",
+      "sedate": "MERIDIEN_V_SEDATE-en.png"
+    },
+    "MERIDIEN_R": {
+      "name": "Kidney",
+      "letter": "K",
+      "emotion": "Fear, Anxiety",
+      "color": "Blue",
+      "sound": "Groaning",
+      "extremity": "Foot",
+      "alarm": {
+        "description": "Bilatéralement, à l'extrémité de la 12eme côte",
+        "image": "MERIDIEN_R_alarm-en.jpg"
+      },
+      "tonify": "MERIDIEN_R_TONIFY-en.png",
+      "sedate": "MERIDIEN_R_SEDATE-en.png"
+    },
+    "MERIDIEN_MC": {
+      "name": "Pericardium - Circulation Sex",
+      "letter": "CS",
+      "emotion": "Joy, Love, Hate",
+      "color": "Red",
+      "sound": "Laughing",
+      "extremity": "Hand",
+      "alarm": {
+        "description": "Sur la ligne médiane, au niveau de la ligne inter mamelonnaire",
+        "image": "MERIDIEN_MC_alarm-en.jpg"
+      },
+      "tonify": "MERIDIEN_MC_TONIFY-en.png",
+      "sedate": "MERIDIEN_MC_SEDATE-en.png"
+    },
+    "MERIDIEN_TR": {
+      "name": "Triple Warmer",
+      "letter": "TW",
+      "emotion": "Joy, Love, Hate",
+      "color": "Red",
+      "sound": "Laughing",
+      "extremity": "Hand",
+      "alarm": {
+        "description": "Sur la ligne médiane, 2 pouces au dessous de l'ombilic",
+        "image": "MERIDIEN_TR_alarm-en.jpg"
+      },
+      "tonify": "MERIDIEN_TR_TONIFY-en.png",
+      "sedate": "MERIDIEN_TR_SEDATE-en.png"
+    },
+    "MERIDIEN_VB": {
+      "name": "Gallbladder",
+      "letter": "G",
+      "emotion": "Anger, resentment",
+      "color": "Green",
+      "sound": "Shouting",
+      "extremity": "Foot",
+      "alarm": {
+        "description": "Bilatéralement à la verticale du mammelon, sous le rebord de la sixième côte",
+        "image": "MERIDIEN_VB_alarm-en.jpg"
+      },
+      "tonify": "MERIDIEN_VB_TONIFY-en.png",
+      "sedate": "MERIDIEN_VB_SEDATE-en.png"
+    },
+    "MERIDIEN_F": {
+      "name": "Liver",
+      "letter": "LV",
+      "emotion": "Anger, resentment",
+      "color": "Green",
+      "sound": "Shouting",
+      "extremity": "Foot",
+      "alarm": {
+        "description": "Bilatéralement à la verticale du mammelon, sous le rebord de la septième côte",
+        "image": "MERIDIEN_F_alarm-en.jpg"
+      },
+      "tonify": "MERIDIEN_F_TONIFY-en.png",
+      "sedate": "MERIDIEN_F_SEDATE-en.png"
+    },
+    "MERIDIEN_P": {
+      "name": "Lung",
+      "letter": "LU",
+      "emotion": "Grief, Guilt, Regret",
+      "color": "White",
+      "sound": "Crying, Deep sighing",
+      "extremity": "Hand",
+      "alarm": {
+        "description": "Bilatéralement, sous la seconde côte, à de pouces de la ligne mammelonaire.",
+        "image": "MERIDIEN_P_alarm-en.jpg"
+      },
+      "tonify": "MERIDIEN_P_TONIFY-en.png",
+      "sedate": "MERIDIEN_P_SEDATE-en.png"
+    },
+    "MERIDIEN_GI": {
+      "name": "Large Intestine",
+      "letter": "LI",
+      "emotion": "Grief, Guilt, Regret",
+      "color": "White",
+      "sound": "Crying, Deep sighing",
+      "extremity": "Hand",
+      "alarm": {
+        "description": "Bilatéralement, à 2 pouces de chaque coté de l'ombilic",
+        "image": "MERIDIEN_GI_alarm-en.jpg"
+      },
+      "tonify": "MERIDIEN_GI_TONIFY-en.png",
+      "sedate": "MERIDIEN_GI_SEDATE-en.png"
+    }
+  },
+  "muscles": {
+    "Sus_Epineux": {
+      "name": "",
+      "description": "description-en"
+    },
+    "Grand_Rond": {
+      "name": "",
+      "description": "description-en"
+    },
+    "Grand_Pectoral_Claviculaire": {
+      "name": "",
+      "description": "description-en"
+    },
+    "Flechisseur_du_Cou": {
+      "name": "",
+      "description": "description-en"
+    },
+    "Brachio_Radial": {
+      "name": "",
+      "description": "description-en"
+    },
+    "Extenseur_du_Cou": {
+      "name": "",
+      "description": "description-en"
+    },
+    "Angulaire_de_l_Omoplate": {
+      "name": "",
+      "description": "description-en"
+    },
+    "Grand_Dorsal": {
+      "name": "",
+      "description": "description-en"
+    },
+    "Trapeze_Moyen": {
+      "name": "",
+      "description": "description-en"
+    },
+    "Trapeze_Inferieur": {
+      "name": "",
+      "description": "description-en"
+    },
+    "Triceps_Brachial": {
+      "name": "",
+      "description": "description-en"
+    },
+    "Opposant_du_Pouce": {
+      "name": "",
+      "description": "description-en"
+    },
+    "Sous_Scapulaire": {
+      "name": "",
+      "description": "description-en"
+    },
+    "Sous_Clavier": {
+      "name": "",
+      "description": "description-en"
+    },
+    "Abdominaux_Transverse": {
+      "name": "",
+      "description": "description-en"
+    },
+    "Quadriceps": {
+      "name": "",
+      "description": "description-en"
+    },
+    "Abdominaux_Droits": {
+      "name": "",
+      "description": "description-en"
+    }
+  },
   "title": {
     "home": "MERIDIANS_APP",
-    "meridians": "Meridians"
+    "elements": "Elements",
+    "meridians": "Meridians",
+    "muscles": "Muscles"
   }
 }

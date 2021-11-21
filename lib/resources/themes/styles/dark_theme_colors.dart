@@ -10,7 +10,9 @@ import 'base_styles.dart';
 class DarkThemeColors implements BaseStyles {
   // general
   Color get background => const Color(0xFF232c33);
+  Color get secondaryBackground => const Color(0xFF4b5e6d);
   Color get primaryContent => const Color(0xFFE1E1E1);
+  Color get primaryColoredContent => const Color(0xFF87c694);
   Color get primaryAccent => const Color(0xFF9999aa);
 
   // app bar
@@ -31,4 +33,8 @@ class DarkThemeColors implements BaseStyles {
   // bottom tab bar - label
   Color get bottomTabBarLabelUnselected => Colors.white54;
   Color get bottomTabBarLabelSelected => Colors.white;
+
+  // Gradients
+  Color get gradientAddButtonStart => const Color(0xFFFE95B6);
+  Color get gradientAddButtonStop => const Color(0xFFFF5287);
 }

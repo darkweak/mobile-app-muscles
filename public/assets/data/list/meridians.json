@@ -1,40 +1,537 @@
 {
   "elements": [
     {
-      "id": "0",
+      "prefix": "MERIDIEN_VC",
       "element": "ELEMENT_AUCUN",
-      "start_color": "#FA7D82",
-      "end_color": "#FFB295"
+      "period": {
+        "start": "0",
+        "stop": "0"
+      },
+      "energy": "",
+      "point": {
+        "first": "VC1",
+        "last": "VC24",
+        "lo": "",
+        "fire": "",
+        "earth": "",
+        "metal": "",
+        "water": "",
+        "wood": "",
+        "alarm": "",
+        "tonification": {
+          "A": "",
+          "B": ""
+        },
+        "dispersion": {
+          "A": "",
+          "B": ""
+        },
+        "closing": {
+          "A": "",
+          "B": ""
+        }
+      },
+      "image": {
+        "large": "MERIDIEN_VC.jpg",
+        "small": "MERIDIEN_VC_small.png",
+        "first": "MERIDIEN_VC_first.png",
+        "last": "MERIDIEN_VC_last.png",
+        "alarm": "",
+        "tonification": "",
+        "dispersion": ""
+      }
     },
     {
-      "id": "1",
-      "element": "ELEMENT_FEU",
-      "start_color": "#738AE6",
-      "end_color": "#5C5EDD"
-    },
-    {
-      "id": "2",
+      "prefix": "MERIDIEN_E",
       "element": "ELEMENT_TERRE",
-      "start_color": "#FE95B6",
-      "end_color": "#FF5287"
+      "period": {
+        "start": "7",
+        "stop": "9"
+      },
+      "energy": "Yang",
+      "point": {
+        "first": "E1",
+        "last": "E45",
+        "lo": "E40",
+        "fire": "E41",
+        "earth": "E36",
+        "metal": "E45",
+        "water": "E44",
+        "wood": "E43",
+        "alarm": "VC12",
+        "tonification": {
+          "A": "E41",
+          "B": "IG5"
+        },
+        "dispersion": {
+          "A": "E45",
+          "B": "GI1"
+        },
+        "closing": {
+          "A": "E43",
+          "B": "VB41"
+        }
+      },
+      "image": {
+        "large": "MERIDIEN_E.jpg",
+        "small": "MERIDIEN_E_small.png",
+        "first": "MERIDIEN_E_first.png",
+        "last": "MERIDIEN_E_last.png",
+        "alarm": "MERIDIEN_E_alarm-fr.jpg",
+        "tonification": "MERIDIEN_E_TONIFY-en.png",
+        "dispersion": "MERIDIEN_E_SEDATE-en.png"
+      }
     },
     {
-      "id": "3",
-      "element": "ELEMENT_METAL",
-      "start_color": "#6F72CA",
-      "end_color": "#1E1466"
+      "prefix": "MERIDIEN_RP",
+      "element": "ELEMENT_TERRE",
+      "period": {
+        "start": "9",
+        "stop": "11"
+      },
+      "energy": "Yin",
+      "point": {
+        "first": "RP1",
+        "last": "RP21",
+        "lo": "RP4",
+        "fire": "RP2",
+        "earth": "RP3",
+        "metal": "RP5",
+        "water": "RP9",
+        "wood": "RP1",
+        "alarm": "F13",
+        "tonification": {
+          "A": "RP2",
+          "B": "C8"
+        },
+        "dispersion": {
+          "A": "RP5",
+          "B": "P8"
+        },
+        "closing": {
+          "A": "RP1",
+          "B": "F1"
+        }
+      },
+      "image": {
+        "large": "MERIDIEN_RP.jpg",
+        "small": "MERIDIEN_RP_small.png",
+        "first": "MERIDIEN_RP_first.png",
+        "last": "MERIDIEN_RP_last.png",
+        "alarm": "MERIDIEN_RP_alarm-fr.jpg",
+        "tonification": "MERIDIEN_RP_TONIFY-en.png",
+        "dispersion": "MERIDIEN_RP_SEDATE-en.png"
+      }
     },
     {
-      "id": "4",
+      "prefix": "MERIDIEN_C",
+      "element": "ELEMENT_FEU",
+      "period": {
+        "start": "11",
+        "stop": "13"
+      },
+      "energy": "Yin",
+      "point": {
+        "first": "C1",
+        "last": "C9",
+        "lo": "C5",
+        "fire": "C8",
+        "earth": "C7",
+        "metal": "C4",
+        "water": "C3",
+        "wood": "C9",
+        "alarm": "VC14",
+        "tonification": {
+          "A": "C9",
+          "B": "F1"
+        },
+        "dispersion": {
+          "A": "IG3",
+          "B": "VB41"
+        },
+        "closing": {
+          "A": "C3",
+          "B": "R10"
+        }
+      },
+      "image": {
+        "large": "MERIDIEN_C.jpg",
+        "small": "MERIDIEN_C_small.png",
+        "first": "MERIDIEN_C_first.png",
+        "last": "MERIDIEN_C_last.png",
+        "alarm": "MERIDIEN_C_alarm-fr.jpg",
+        "tonification": "MERIDIEN_C_TONIFY-en.png",
+        "dispersion": "MERIDIEN_C_SEDATE-en.png"
+      }
+    },
+    {
+      "prefix": "MERIDIEN_IG",
+      "element": "ELEMENT_FEU",
+      "period": {
+        "start": "13",
+        "stop": "15"
+      },
+      "energy": "Yang",
+      "point": {
+        "first": "IG1",
+        "last": "IG19",
+        "lo": "IG7",
+        "fire": "IG5",
+        "earth": "IG8",
+        "metal": "IG1",
+        "water": "IG2",
+        "wood": "IG3",
+        "alarm": "VC4",
+        "tonification": {
+          "A": "IG3",
+          "B": "VB41"
+        },
+        "dispersion": {
+          "A": "IG8",
+          "B": "E36"
+        },
+        "closing": {
+          "A": "IG2",
+          "B": "V66"
+        }
+      },
+      "image": {
+        "large": "MERIDIEN_IG.jpg",
+        "small": "MERIDIEN_IG_small.png",
+        "first": "MERIDIEN_IG_first.png",
+        "last": "MERIDIEN_IG_last.png",
+        "alarm": "MERIDIEN_IG_alarm-fr.jpg",
+        "tonification": "MERIDIEN_IG_TONIFY-en.png",
+        "dispersion": "MERIDIEN_IG_SEDATE-en.png"
+      }
+    },
+    {
+      "prefix": "MERIDIEN_V",
       "element": "ELEMENT_EAU",
-      "start_color": "#6F72CA",
-      "end_color": "#1E1466"
+      "period": {
+        "start": "15",
+        "stop": "17"
+      },
+      "energy": "Yang",
+      "point": {
+        "first": "V1",
+        "last": "V67",
+        "lo": "V58",
+        "fire": "V60",
+        "earth": "V40",
+        "metal": "V67",
+        "water": "V66",
+        "wood": "V65",
+        "alarm": "VC3",
+        "tonification": {
+          "A": "V67",
+          "B": "GI1"
+        },
+        "dispersion": {
+          "A": "V65",
+          "B": "VB41"
+        },
+        "closing": {
+          "A": "V40",
+          "B": "E36"
+        }
+      },
+      "image": {
+        "large": "MERIDIEN_V.jpg",
+        "small": "MERIDIEN_V_small.png",
+        "first": "MERIDIEN_V_first.png",
+        "last": "MERIDIEN_V_last.png",
+        "alarm": "MERIDIEN_V_alarm-fr.jpg",
+        "tonification": "MERIDIEN_V_TONIFY-en.png",
+        "dispersion": "MERIDIEN_V_SEDATE-en.png"
+      }
     },
     {
-      "id": "5",
+      "prefix": "MERIDIEN_R",
+      "element": "ELEMENT_EAU",
+      "period": {
+        "start": "17",
+        "stop": "19"
+      },
+      "energy": "Yin",
+      "point": {
+        "first": "R1",
+        "last": "R27",
+        "lo": "R4",
+        "fire": "R2",
+        "earth": "R3",
+        "metal": "R7",
+        "water": "R10",
+        "wood": "R1",
+        "alarm": "VB25",
+        "tonification": {
+          "A": "R7",
+          "B": "P8"
+        },
+        "dispersion": {
+          "A": "R1",
+          "B": "F1"
+        },
+        "closing": {
+          "A": "R3",
+          "B": "RP3"
+        }
+      },
+      "image": {
+        "large": "MERIDIEN_R.jpg",
+        "small": "MERIDIEN_R_small.png",
+        "first": "MERIDIEN_R_first.png",
+        "last": "MERIDIEN_R_last.png",
+        "alarm": "MERIDIEN_R_alarm-fr.jpg",
+        "tonification": "MERIDIEN_R_TONIFY-en.png",
+        "dispersion": "MERIDIEN_R_SEDATE-en.png"
+      }
+    },
+    {
+      "prefix": "MERIDIEN_MC",
+      "element": "ELEMENT_FEU",
+      "period": {
+        "start": "19",
+        "stop": "21"
+      },
+      "energy": "Yin",
+      "point": {
+        "first": "MC1",
+        "last": "MC9",
+        "lo": "MC6",
+        "fire": "MC8",
+        "earth": "MC7",
+        "metal": "MC5",
+        "water": "MC3",
+        "wood": "MC9",
+        "alarm": "VC17",
+        "tonification": {
+          "A": "MC9",
+          "B": "F1"
+        },
+        "dispersion": {
+          "A": "MC7",
+          "B": "RP3"
+        },
+        "closing": {
+          "A": "MC3",
+          "B": "R10"
+        }
+      },
+      "image": {
+        "large": "MERIDIEN_MC.jpg",
+        "small": "MERIDIEN_MC_small.png",
+        "first": "MERIDIEN_MC_first.png",
+        "last": "MERIDIEN_MC_last.png",
+        "alarm": "MERIDIEN_MC_alarm-fr.jpg",
+        "tonification": "MERIDIEN_MC_TONIFY-en.png",
+        "dispersion": "MERIDIEN_MC_SEDATE-en.png"
+      }
+    },
+    {
+      "prefix": "MERIDIEN_TR",
+      "element": "ELEMENT_FEU",
+      "period": {
+        "start": "21",
+        "stop": "23"
+      },
+      "energy": "Yang",
+      "point": {
+        "first": "TR1",
+        "last": "TR23",
+        "lo": "TR5",
+        "fire": "TR6",
+        "earth": "TR10",
+        "metal": "TR1",
+        "water": "TR2",
+        "wood": "TR3",
+        "alarm": "VC5",
+        "tonification": {
+          "A": "TR3",
+          "B": "VB41"
+        },
+        "dispersion": {
+          "A": "TR10",
+          "B": "E36"
+        },
+        "closing": {
+          "A": "TR2",
+          "B": "V66"
+        }
+      },
+      "image": {
+        "large": "MERIDIEN_TR.jpg",
+        "small": "MERIDIEN_TR_small.png",
+        "first": "MERIDIEN_TR_first.png",
+        "last": "MERIDIEN_TR_last.png",
+        "alarm": "MERIDIEN_TR_alarm-fr.jpg",
+        "tonification": "MERIDIEN_TR_TONIFY-en.png",
+        "dispersion": "MERIDIEN_TR_SEDATE-en.png"
+      }
+    },
+    {
+      "prefix": "MERIDIEN_VB",
       "element": "ELEMENT_BOIS",
-      "start_color": "#6F72CA",
-      "end_color": "#1E1466"
+      "period": {
+        "start": "23",
+        "stop": "1"
+      },
+      "energy": "Yang",
+      "point": {
+        "first": "VB1",
+        "last": "VB44",
+        "lo": "VB37",
+        "fire": "VB38",
+        "earth": "VB34",
+        "metal": "VB44",
+        "water": "VB43",
+        "wood": "VB41",
+        "alarm": "VB24",
+        "tonification": {
+          "A": "VB43",
+          "B": "V66"
+        },
+        "dispersion": {
+          "A": "VB38",
+          "B": "IG5"
+        },
+        "closing": {
+          "A": "VB44",
+          "B": "GI1"
+        }
+      },
+      "image": {
+        "large": "MERIDIEN_VB.jpg",
+        "small": "MERIDIEN_VB_small.png",
+        "first": "MERIDIEN_VB_first.png",
+        "last": "MERIDIEN_VB_last.png",
+        "alarm": "MERIDIEN_VB_alarm-fr.jpg",
+        "tonification": "MERIDIEN_VB_TONIFY-en.png",
+        "dispersion": "MERIDIEN_VB_SEDATE-en.png"
+      }
+    },
+    {
+      "prefix": "MERIDIEN_F",
+      "element": "ELEMENT_BOIS",
+      "period": {
+        "start": "1",
+        "stop": "3"
+      },
+      "energy": "Yin ",
+      "point": {
+        "first": "F1",
+        "last": "F14",
+        "lo": "F5",
+        "fire": "F2",
+        "earth": "F3",
+        "metal": "F4",
+        "water": "F8",
+        "wood": "F1",
+        "alarm": "F14",
+        "tonification": {
+          "A": "F8",
+          "B": "R10"
+        },
+        "dispersion": {
+          "A": "F2",
+          "B": "C8"
+        },
+        "closing": {
+          "A": "F4",
+          "B": "P8"
+        }
+      },
+      "image": {
+        "large": "MERIDIEN_F.jpg",
+        "small": "MERIDIEN_F_small.png",
+        "first": "MERIDIEN_F_first.png",
+        "last": "MERIDIEN_F_last.png",
+        "alarm": "MERIDIEN_F_alarm-fr.jpg",
+        "tonification": "MERIDIEN_F_TONIFY-en.png",
+        "dispersion": "MERIDIEN_F_SEDATE-en.png"
+      }
+    },
+    {
+      "prefix": "MERIDIEN_P",
+      "element": "ELEMENT_METAL",
+      "period": {
+        "start": "3",
+        "stop": "5"
+      },
+      "energy": "Yin",
+      "point": {
+        "first": "P1",
+        "last": "P11",
+        "lo": "P7",
+        "fire": "P10",
+        "earth": "P9",
+        "metal": "P8",
+        "water": "P5",
+        "wood": "P11",
+        "alarm": "P1",
+        "tonification": {
+          "A": "P9",
+          "B": "RP3"
+        },
+        "dispersion": {
+          "A": "P5",
+          "B": "R10"
+        },
+        "closing": {
+          "A": "P10",
+          "B": "C8"
+        }
+      },
+      "image": {
+        "large": "MERIDIEN_P.jpg",
+        "small": "MERIDIEN_P_small.png",
+        "first": "MERIDIEN_P_first.png",
+        "last": "MERIDIEN_P_last.png",
+        "alarm": "MERIDIEN_P_alarm-fr.jpg",
+        "tonification": "MERIDIEN_P_TONIFY-en.png",
+        "dispersion": "MERIDIEN_P_SEDATE-en.png"
+      }
+    },
+    {
+      "prefix": "MERIDIEN_GI",
+      "element": "ELEMENT_METAL",
+      "period": {
+        "start": "5",
+        "stop": "7"
+      },
+      "energy": "Yang",
+      "point": {
+        "first": "GI1",
+        "last": "GI20",
+        "lo": "GI6",
+        "fire": "GI5",
+        "earth": "GI11",
+        "metal": "GI1",
+        "water": "GI2",
+        "wood": "GI3",
+        "alarm": "E25",
+        "tonification": {
+          "A": "GI11",
+          "B": "E36"
+        },
+        "dispersion": {
+          "A": "GI2",
+          "B": "V66"
+        },
+        "closing": {
+          "A": "GI5",
+          "B": "IG5"
+        }
+      },
+      "image": {
+        "large": "MERIDIEN_GI.jpg",
+        "small": "MERIDIEN_GI_small.png",
+        "first": "MERIDIEN_GI_first.png",
+        "last": "MERIDIEN_GI_last.png",
+        "alarm": "MERIDIEN_GI_alarm-fr.jpg",
+        "tonification": "MERIDIEN_GI_TONIFY-en.png",
+        "dispersion": "MERIDIEN_GI_SEDATE-en.png"
+      }
     }
   ]
 }

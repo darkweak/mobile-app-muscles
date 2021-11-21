@@ -1,19 +1,11 @@
 import 'package:flutter_app/app/models/fileProvider.dart';
 
 class Meridian extends FileProvider {
-  Meridian(
-      {String id = '',
-      String element = '',
-      String startColor = '',
-      String endColor = '',
-      this.translations = ''})
-      : super(
-            id: id,
-            element: element,
-            startColor: startColor,
-            endColor: endColor);
+  Meridian({String name = '', this.element = '', this.image = ''})
+      : super(name: name);
 
-  String translations;
+  String element;
+  String image;
 
   @override
   String getName() {
@@ -27,10 +19,9 @@ class Meridian extends FileProvider {
 
     for (var item in data) {
       meridians.add(Meridian(
-        id: item["id"],
+        name: item["prefix"],
         element: item["element"],
-        startColor: item["start_color"],
-        endColor: item["end_color"],
+        image: item["image"]["large"],
       ));
     }
 

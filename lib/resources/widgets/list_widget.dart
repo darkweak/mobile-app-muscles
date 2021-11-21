@@ -1,40 +1,75 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/app/models/fileProvider.dart';
-import 'package:flutter_app/resources/widgets/curved_item_widget.dart';
+import 'package:flutter_app/app/models/element.dart' as elementProvider;
+import 'package:flutter_app/resources/widgets/list_item/element.dart';
 import 'package:nylo_framework/nylo_framework.dart';
 
 class ListWidget<T extends FileProvider> extends NyStatefulWidget {
   ListWidget(
       {Key? key,
       required this.items,
+      required this.itemBuilder,
       this.animationController,
-      this.inline = false})
+      this.inline = false,
+      this.small = false})
       : super(key: key);
 
   final bool inline;
+  final bool small;
+  final Function itemBuilder;
   final List<T> items;
   final AnimationController? animationController;
 
   @override
   _ListWidgetState<T> createState() => _ListWidgetState(
-      animationController: animationController, inline: inline, items: items);
+      animationController: animationController,
+      inline: inline,
+      small: small,
+      items: items,
+      itemBuilder: itemBuilder);
 }
 
 class _ListWidgetState<T extends FileProvider> extends NyState<ListWidget>
     with TickerProviderStateMixin {
   _ListWidgetState(
-      {required this.items, this.inline = false, this.animationController});
+      {required this.items,
+      required this.itemBuilder,
+      this.inline = false,
+      this.small = false,
+      this.animationController});
 
   final bool inline;
+  final bool small;
   final List<T> items;
+  final Function itemBuilder;
   AnimationController? animationController;
 
   @override
   Widget build(BuildContext context) {
-    print(animationController);
     return AnimatedBuilder(
       animation: animationController!,
       builder: (BuildContext context, Widget? child) {
+        if (!this.inline) {
+          return GridView(
+            shrinkWrap: true,
+            padding: const EdgeInsets.only(left: 24, right: 24),
+            physics: const BouncingScrollPhysics(),
+            scrollDirection: Axis.vertical,
+            children: List<Widget>.generate(
+              this.items.length,
+              (int index) {
+                animationController?.forward();
+                return this.itemBuilder(this.items[index]);
+              },
+            ),
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              childAspectRatio: this.small ? 1.7 : 1.5,
+              crossAxisCount: 2,
+              mainAxisSpacing: 24.0,
+              crossAxisSpacing: 24.0,
+            ),
+          );
+        }
         return FadeTransition(
           opacity: animationController!,
           child: Transform(
@@ -74,9 +109,8 @@ class _ListWidgetState<T extends FileProvider> extends NyState<ListWidget>
                               100 * (1.0 - animation.value), 0.0, 0.0),
                           child: SizedBox(
                             width: 140,
-                            child: inline
-                                ? CurvedItemViewWidget(item: item)
-                                : CurvedItemViewWidget(item: item),
+                            child: ElementItemListWidget(
+                                item: (item as elementProvider.Element)),
                           ),
                         ),
                       );

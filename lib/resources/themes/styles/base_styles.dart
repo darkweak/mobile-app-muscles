@@ -7,6 +7,8 @@ abstract class BaseStyles {
   // general
   Color get background;
   Color get primaryContent;
+  Color get primaryColoredContent;
+  Color get secondaryBackground;
   Color get primaryAccent;
 
   // app bar
@@ -27,4 +29,8 @@ abstract class BaseStyles {
   // bottom tab bar - label
   Color get bottomTabBarLabelUnselected;
   Color get bottomTabBarLabelSelected;
+
+  // Gradients
+  Color get gradientAddButtonStart;
+  Color get gradientAddButtonStop;
 }

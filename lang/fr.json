@@ -1,5 +1,181 @@
 {
-  "meridians": {
+  "corrections": {
+    "NL_ANT_01": {
+      "description": "A hauteur de la première côte au niveau du sternum"
+    },
+    "NL_ANT_02": {
+      "description": "Entre T2 et T3, de part et d'autre du sternum"
+    },
+    "NL_ANT_03": {
+      "description": "3 eme espace intercostal, de part et d'autre de le ligne médiane"
+    },
+    "NL_ANT_03_04": {
+      "description": "3 et 4 eme espace intercostal, de part et d'autre de le ligne médiane"
+    },
+    "NL_ANT_05_15": {
+      "description": "Sur l'épaule au niveau de la goutière bicipitale, a l'intérieur de l'epine iliaque Antéro Supérieure"
+    },
+    "NL_ANT_Z5_16": {
+      "description": "Sur la branche pubienne, de part et d'autre de la symphyse + points  de parte et d'autre du nombril"
+    },
+    "NL_ANT_06": {
+      "description": "T2, T3 a 8 -9 cm de part et d'autre du sternum"
+    },
+    "NL_ANT_07": {
+      "description": "Entre T2 et T3, de 3 a 5 cm de part et d'autre du sternum"
+    },
+    "NL_ANT_14": {
+      "description": "7eme espace intercostal a gauche, a la verticale du mamelon"
+    },
+    "NL_ANT_18": {
+      "description": "a 4 pouces au dessus et a 2 pouces en dehors du nombril"
+    },
+    "NL_ANT_8": {
+      "description": "4 eme espace intercostal"
+    },
+    "NL_ANT_Z1_02": {
+      "description": "A l'avant de l'épaule et entre T2 et T3 proche du sternum"
+    },
+    "NL_ANT_Z2": {
+      "description": "5eme espace intercostal à gauche"
+    },
+    "NL_ANT_Z2d": {
+      "description": "5eme espace intercostal à droite"
+    },
+    "NL_ANT_Z3": {
+      "description": "Sur le rebord interne du cartilage, le long de la courbe sur le bord inférieur des côtes"
+    },
+    "NL_ANT_Z4": {
+      "description": "Sur la face antérieur du sternum"
+    },
+    "NL_ANT_Z5": {
+      "description": "Sur la crête du pubis"
+    },
+    "NL_ANT_Z6": {
+      "description": "Bande supérieure de l'intérieur des cuisses"
+    },
+    "NL_ANT_Z6_15": {
+      "description": "Bande supérieure de l'intérieur des cuisses et le point au sommet antérieur de la crête iliaque"
+    },
+    "NL_ANT_Z7": {
+      "description": "Sur l'avant de la cuisse et légèrement sur le coté"
+    },
+    "NL_ANT_Z8": {
+      "description": "Moitié inférieure de l'intérieur des cuisses"
+    },
+    "NL_ANT_Z9": {
+      "description": "Ligne axillaire transversalement au tendon du grand pectoral"
+    },
+    "NL_POST_C1": {
+      "description": "A la base du crane"
+    },
+    "NL_POST_C2": {
+      "description": "Au niveau de C2, de part et d'autre de la colonne vertébrale"
+    },
+    "NL_POST_C7_D1_Z1": {
+      "description": "Entre C7 et T1 de part et d'autre de la colonne vertébrale + dans le ventre du grand rond sur le bord de l'omoplate"
+    },
+    "NL_POST_D10_D11_D12": {
+      "description": "D10-D11-D12 à 2.5cm de chaque coté de la colonne vertébrale"
+    },
+    "NL_POST_D12_L1": {
+      "description": "Entre T12 et L1, de part et d'autre de la colonne vertébrale"
+    },
+    "NL_POST_D2_D3": {
+      "description": "Entre T2 et T3, de part et d'autre de la colonne vertébrale"
+    },
+    "NL_POST_D3_D5": {
+      "description": "Entre D3 et D4, D4 et D5 de chaque coté de la colonne"
+    },
+    "NL_POST_D4_D5": {
+      "description": "Entre D3 et D4 de chaque coté de la colonne"
+    },
+    "NL_POST_D5_D6": {
+      "description": "Entre T5 et T6, de part et d'autre de la colonne vertébrale"
+    },
+    "NL_POST_D5_D6d": {
+      "description": "Entre T5 et T6, a droite uniquement de la colonne vertébrale"
+    },
+    "NL_POST_D7_D8": {
+      "description": "Entre T7 et T8, de part et d'autre de la colonne vertébrale"
+    },
+    "NL_POST_D8_D11": {
+      "description": "Entre T8 et T12, de part et d'autre de la colonne vertébrale"
+    },
+    "NL_POST_L2": {
+      "description": "Au niveau de L2, de part et d'autre de la colonne vertébrale"
+    },
+    "NL_POST_L5": {
+      "description": "Au niveau de L5, de part et d'autre de la colonne vertébrale"
+    },
+    "NL_POST_Z2": {
+      "description": "Sous la pointe de l'omoplate, entre D8 et D9"
+    },
+    "NL_POST_Z3": {
+      "description": "le triangle situe entre L2,L4 et la pointe de la hanche"
+    },
+    "NL_POST_Z4": {
+      "description": "Sur l'os des hanches, au niveau de L5"
+    },
+    "NV1_DOS": {
+      "description": "protubérance occipitale"
+    },
+    "NV_10_13": {
+      "description": "Eminence pariétales + Suture lambdoide( rencontre de l'occipital, pariétal et temporal )"
+    },
+    "NV10_PROFIL": {
+      "description": "Eminence pariétales"
+    },
+    "NV11_FACE": {
+      "description": "Eminences frontales"
+    },
+    "NV12_FACE": {
+      "description": "A la racine des cheveux,  a deux pouces de la ligne médiane"
+    },
+    "NV13_DOS": {
+      "description": "Suture lambdoide( rencontre de l'occipital, pariétal et temporal )"
+    },
+    "NV14_DOS": {
+      "description": "Derrière le Genou"
+    },
+    "Dans_la_fourchette_sternale": {
+      "description": "Dans la fourchette sternale "
+    },
+    "NV14_Face+NV16_DOS_Genou": {
+      "description": "Derrière le Genou + Sous l'articulation Sterno-Claviculaire"
+    },
+    "NV2_DOS": {
+      "description": "Fontanelle postérieure"
+    },
+    "NV3_DOS": {
+      "description": "A un demi pouce au dessus de la fontanelle postérieure"
+    },
+    "NV4_11_PROFIL": {
+      "description": "Fontanelle Antérieure"
+    },
+    "NV4_PROFIL": {
+      "description": "Fontanelle Antérieure"
+    },
+    "NV5_FACE": {
+      "description": "Racine des sourcils"
+    },
+    "NV6_PROFIL": {
+      "description": "Branche verticale du maxilaire inférieur dans l'alignement des dents"
+    },
+    "NV7_PROFIL": {
+      "description": "A 1,5 cm a l'angle extérieur des yeux"
+    },
+    "NV8_PROFIL": {
+      "description": "Sur la branche temporo maxilaire, en avant de l'oreille"
+    },
+    "NV8_PROFIL+NV15_16Face": {
+      "description": "Sur la branche temporo maxilaire, en avant de l'oreille + Dans la fourchette sternale"
+    },
+    "NV9_PROFIL": {
+      "description": "A 2cm au dessus de l'oreille"
+    }
+  },
+  "elements": {
     "ELEMENT_AUCUN": {
       "name": ""
     },
@@ -19,8 +195,265 @@
       "name": "Bois"
     }
   },
+  "meridians": {
+    "MERIDIEN_VC": {
+      "name": "Vaisseau Conception",
+      "letter": "VC",
+      "emotion": "",
+      "color": "",
+      "sound": "",
+      "extremity": "",
+      "alarm": {
+        "description": "Sur la ligne médiane, dans le creux au milieu du sillon mentonier",
+        "image": ""
+      },
+      "tonify": "",
+      "sedate": ""
+    },
+    "MERIDIEN_E": {
+      "name": "Estomac",
+      "letter": "E",
+      "emotion": "Reflexion",
+      "color": "Jaune",
+      "sound": "Chant",
+      "extremity": "Pied",
+      "alarm": {
+        "description": "Sur la ligne médiane, 2 pouces au dessous du 14 VC, 4 pouces au dessus de l'ombilic",
+        "image": "MERIDIEN_E_alarm-fr.jpg"
+      },
+      "tonify": "MERIDIEN_E_TONIFY-fr.png",
+      "sedate": "MERIDIEN_E_SEDATE-fr.png"
+    },
+    "MERIDIEN_RP": {
+      "name": "Rate Pancreas",
+      "letter": "RP",
+      "emotion": "Reflexion",
+      "color": "Jaune",
+      "sound": "Chant",
+      "extremity": "Pied",
+      "alarm": {
+        "description": "Bilatéralement, à l'extrémité libre de la 11eme cote, 2 pouces au dessus de la ligne horizontale passant pas l'ombilic",
+        "image": "MERIDIEN_RP_alarm-fr.jpg"
+      },
+      "tonify": "MERIDIEN_RP_TONIFY-fr.png",
+      "sedate": "MERIDIEN_RP_SEDATE-fr.png"
+    },
+    "MERIDIEN_C": {
+      "name": "Coeur",
+      "letter": "C",
+      "emotion": "Joie, Amour, Haine",
+      "color": "Rouge",
+      "sound": "Rire",
+      "extremity": "Main",
+      "alarm": {
+        "description": "sur la ligne médiane, sous la pointe de l'apophyse xiphoïde, 6 pouces au dessus de l'ombilic",
+        "image": "MERIDIEN_C_alarm-fr.jpg"
+      },
+      "tonify": "MERIDIEN_C_TONIFY-fr.png",
+      "sedate": "MERIDIEN_C_SEDATE-fr.png"
+    },
+    "MERIDIEN_IG": {
+      "name": "Intestin Grêle",
+      "letter": "IG",
+      "emotion": "Joie, Amour, Haine",
+      "color": "Rouge",
+      "sound": "Rire",
+      "extremity": "Main",
+      "alarm": {
+        "description": "Sur la ligne médiane, 3 pouces au dessous de l'ombilic",
+        "image": "MERIDIEN_IG_alarm-fr.jpg"
+      },
+      "tonify": "MERIDIEN_IG_TONIFY-fr.png",
+      "sedate": "MERIDIEN_IG_SEDATE-fr.png"
+    },
+    "MERIDIEN_VG": {
+      "name": "Vessie",
+      "letter": "V",
+      "emotion": "Peur, Anxiété",
+      "color": "Bleu",
+      "sound": "Pleurs",
+      "extremity": "Pied",
+      "alarm": {
+        "description": "Sur la ligne médiane, 4 pouces au dessous de l'ombilic",
+        "image": "MERIDIEN_V_alarm-fr.jpg"
+      },
+      "tonify": "MERIDIEN_V_TONIFY-fr.png",
+      "sedate": "MERIDIEN_V_SEDATE-fr.png"
+    },
+    "MERIDIEN_R": {
+      "name": "Rein",
+      "letter": "R",
+      "emotion": "Peur, Anxiété",
+      "color": "Bleu",
+      "sound": "Pleurs",
+      "extremity": "Pied",
+      "alarm": {
+        "description": "Bilatéralement, à l'extrémité de la 12eme côte",
+        "image": "MERIDIEN_R_alarm-fr.jpg"
+      },
+      "tonify": "MERIDIEN_R_TONIFY-fr.png",
+      "sedate": "MERIDIEN_R_SEDATE-fr.png"
+    },
+    "MERIDIEN_MC": {
+      "name": "Maitre du Coeur",
+      "letter": "MC",
+      "emotion": "Joie, Amour, Haine",
+      "color": "Rouge",
+      "sound": "Rire",
+      "extremity": "Main",
+      "alarm": {
+        "description": "Sur la ligne médiane, au niveau de la ligne inter mamelonnaire",
+        "image": "MERIDIEN_MC_alarm-fr.jpg"
+      },
+      "tonify": "MERIDIEN_MC_TONIFY-fr.png",
+      "sedate": "MERIDIEN_MC_SEDATE-fr.png"
+    },
+    "MERIDIEN_TR": {
+      "name": "Triple Rechauffeur",
+      "letter": "TR",
+      "emotion": "Joie, Amour, Haine",
+      "color": "Rouge",
+      "sound": "Rire",
+      "extremity": "Main",
+      "alarm": {
+        "description": "Sur la ligne médiane, 2 pouces au dessous de l'ombilic",
+        "image": "MERIDIEN_TR_alarm-fr.jpg"
+      },
+      "tonify": "MERIDIEN_TR_TONIFY-fr.png",
+      "sedate": "MERIDIEN_TR_SEDATE-fr.png"
+    },
+    "MERIDIEN_VB": {
+      "name": "Vésicule Biliaire",
+      "letter": "VB",
+      "emotion": "Colère",
+      "color": "Vert",
+      "sound": "Crier",
+      "extremity": "Pied",
+      "alarm": {
+        "description": "Bilatéralement à la verticale du mammelon, sous le rebord de la sixième côte",
+        "image": "MERIDIEN_VB_alarm-fr.jpg"
+      },
+      "tonify": "MERIDIEN_VB_TONIFY-fr.png",
+      "sedate": "MERIDIEN_VB_SEDATE-fr.png"
+    },
+    "MERIDIEN_F": {
+      "name": "Foie",
+      "letter": "F",
+      "emotion": "Colère",
+      "color": "Vert",
+      "sound": "Crier",
+      "extremity": "Pied",
+      "alarm": {
+        "description": "Bilatéralement à la verticale du mammelon, sous le rebord de la septième côte",
+        "image": "MERIDIEN_F_alarm-fr.jpg"
+      },
+      "tonify": "MERIDIEN_F_TONIFY-fr.png",
+      "sedate": "MERIDIEN_F_SEDATE-fr.png"
+    },
+    "MERIDIEN_P": {
+      "name": "Poumon",
+      "letter": "P",
+      "emotion": "Soucis, Tristesse",
+      "color": "Blanc",
+      "sound": "Gémir",
+      "extremity": "Main",
+      "alarm": {
+        "description": "Bilatéralement, sous la seconde côte, à de pouces de la ligne mammelonaire.",
+        "image": "MERIDIEN_P_alarm-fr.jpg"
+      },
+      "tonify": "MERIDIEN_P_TONIFY-fr.png",
+      "sedate": "MERIDIEN_P_SEDATE-fr.png"
+    },
+    "MERIDIEN_GI": {
+      "name": "Gros Intestin",
+      "letter": "GI",
+      "emotion": "Soucis, Tristesse",
+      "color": "Blanc",
+      "sound": "Gémir",
+      "extremity": "Main",
+      "alarm": {
+        "description": "Bilatéralement, à 2 pouces de chaque coté de l'ombilic",
+        "image": "MERIDIEN_GI_alarm-fr.jpg"
+      },
+      "tonify": "MERIDIEN_GI_TONIFY-fr.png",
+      "sedate": "MERIDIEN_GI_SEDATE-fr.png"
+    }
+  },
+  "muscles": {
+    "Sus_Epineux": {
+      "name": "Supraspinatus",
+      "description": "description-fr"
+    },
+    "Grand_Rond": {
+      "name": "Teres major",
+      "description": "description-fr"
+    },
+    "Grand_Pectoral_Claviculaire": {
+      "name": "Pectoralis major - clavicular portion",
+      "description": "description-fr"
+    },
+    "Flechisseur_du_Cou": {
+      "name": "Neck Muscle",
+      "description": "description-fr"
+    },
+    "Brachio_Radial": {
+      "name": "Brachioradialis",
+      "description": "description-fr"
+    },
+    "Extenseur_du_Cou": {
+      "name": "Neck Muscle",
+      "description": "description-fr"
+    },
+    "Angulaire_de_l_Omoplate": {
+      "name": "Levator scapulae",
+      "description": "description-fr"
+    },
+    "Grand_Dorsal": {
+      "name": "Latissimus dorsi",
+      "description": "description-fr"
+    },
+    "Trapeze_Moyen": {
+      "name": "Trapezius - middle fibers",
+      "description": "description-fr"
+    },
+    "Trapeze_Inferieur": {
+      "name": "Trapezius - inferior - lower fibers",
+      "description": "description-fr"
+    },
+    "Triceps_Brachial": {
+      "name": "Triceps brachii",
+      "description": "description-fr"
+    },
+    "Opposant_du_Pouce": {
+      "name": "Opponens Pollicis",
+      "description": "description-fr"
+    },
+    "Sous_Scapulaire": {
+      "name": "Subscapularis Muscle",
+      "description": "description-fr"
+    },
+    "Sous_Clavier": {
+      "name": "SubClavier",
+      "description": "description-fr"
+    },
+    "Abdominaux_Transverse": {
+      "name": "",
+      "description": "description-fr"
+    },
+    "Quadriceps": {
+      "name": "Quadriceps femoris",
+      "description": "description-fr"
+    },
+    "Abdominaux_Droits": {
+      "name": "Rectus abdominis",
+      "description": "description-fr"
+    }
+  },
   "title": {
     "home": "MERIDIANS_APP",
-    "meridians": "Meridiens"
+    "corrections": "Corrections",
+    "elements": "Elements",
+    "meridians": "Meridiens",
+    "muscles": "Muscles"
   }
 }

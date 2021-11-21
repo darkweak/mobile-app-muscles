@@ -1,0 +1,34 @@
+{
+  "elements": [
+    {
+      "element": "ELEMENT_AUCUN",
+      "start_color": "#FA7D82",
+      "end_color": "#FFB295"
+    },
+    {
+      "element": "ELEMENT_FEU",
+      "start_color": "#738AE6",
+      "end_color": "#5C5EDD"
+    },
+    {
+      "element": "ELEMENT_TERRE",
+      "start_color": "#FE95B6",
+      "end_color": "#FF5287"
+    },
+    {
+      "element": "ELEMENT_METAL",
+      "start_color": "#6F72CA",
+      "end_color": "#1E1466"
+    },
+    {
+      "element": "ELEMENT_EAU",
+      "start_color": "#6F72CA",
+      "end_color": "#1E1466"
+    },
+    {
+      "element": "ELEMENT_BOIS",
+      "start_color": "#6F72CA",
+      "end_color": "#1E1466"
+    }
+  ]
+}
